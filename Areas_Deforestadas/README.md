@@ -1,7 +1,13 @@
-# GlobantExercises
-Training Spring Boot and AWS Lamba exercises for becoming familiar with the concepts.
+# Areas Deforestadas Departamento del Chocó 2019-2021
+En el presente repositorio se realiza un breve análisis de los datos recopilados en el documento "AREAS DEFORESTADAS CHOCO" de los "datos abiertos" de la República de Colombia, el cual puede ser encontrado en el siguiente enlace: [Datos](https://www.datos.gov.co/Ambiente-y-Desarrollo-Sostenible/AREAS-DEFORESTADAS-CHOCO/iczg-dyt3/about_data)
 
 ## Description of the projects
+
+![Diagrama del sistema](img/Deforestacion por Municipios.png)
+
+![Diagrama del sistema](img/Area deforestada.png)
+
+![Diagrama del sistema](img/Causas deforestacion.png)
 
 ### sqsLambdaFunction
 In this project AWS SNS service generates messages that are later taken and stored in a queue by the AWS SQS service . These SQS messages work as triggers of a AWS Lambda function, which extracts the original SNS messages and print them in the console.
