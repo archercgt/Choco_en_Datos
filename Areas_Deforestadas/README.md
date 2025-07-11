@@ -8,4 +8,4 @@ En el presente repositorio se realiza un breve análisis de los datos recopilado
 ![Causas de deforestacion](img/Causas_deforestacion.png)
 
 ## Deforestación por Municipios
-![Deforestacion por Municipios](img/Deforestacion_por _Municipios.png)
+![Deforestacion por Municipios](img/Deforestacion_por_Municipios.png)
