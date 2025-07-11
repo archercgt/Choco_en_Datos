@@ -3,11 +3,11 @@ En el presente repositorio se realiza un breve análisis de los datos recopilado
 
 ## Description of the projects
 
-![Diagrama del sistema](img/Deforestacion por Municipios.png)
+![Diagrama del sistema](img/Deforestacion_por_Municipios.png)
 
-![Diagrama del sistema](img/Area deforestada.png)
+![Diagrama del sistema](img/Area_deforestada.png)
 
-![Diagrama del sistema](img/Causas deforestacion.png)
+![Diagrama del sistema](img/Causas_deforestacion.png)
 
 ### sqsLambdaFunction
 In this project AWS SNS service generates messages that are later taken and stored in a queue by the AWS SQS service . These SQS messages work as triggers of a AWS Lambda function, which extracts the original SNS messages and print them in the console.
